@@ -9,8 +9,9 @@ public class WhileExample2 {
 		int num = 10;
 		int keyCode = 0;
 		while (run) {
-			System.out.println("키를 누르세요.");
+			
 			if (keyCode != 13 && keyCode != 10) {
+				System.out.println("키를 누르세요.");
 				keyCode = System.in.read();
 				System.out.println(keyCode);
 			}
