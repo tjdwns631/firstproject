@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class StudentTest {
+	///////collection
 	static List<Student> list = new ArrayList<>(); // 인스턴스생성
 	static Scanner s = new Scanner(System.in);
 
